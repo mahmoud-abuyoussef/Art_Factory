@@ -1,8 +1,5 @@
 # ArtFactory_Template
 
-Art Factory Template With HTML and CSS Responsive Design
+## [Demo Link](https://mahmoud-abuyoussef.github.io/Art_Factory/)
 
-## Demo Page
-https://mahmoudabuyousef.github.io/ArtFactory_Template/
-
-![Demo image Template!](/images/template-537-art-factory.jpg)
+![Design](/images/template-537-art-factory.jpg)
