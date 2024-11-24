@@ -10,6 +10,7 @@
   --turquoise-surf: #00b4c6;
   --sea-serpent: #4bc0dc;
   --box-shadow: 1px 1px 10px rgb(0 0 0 / 0.1);
+  --text-color: #9a9a9b; 
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -22,6 +23,19 @@ ul {
 }
 img {
   max-width: 100%;
+}
+.main-btn {
+  display: block;
+  width: 150px;
+  padding: 10px;
+  margin-top: 20px;
+  text-align: center;
+  color: var(--white);
+  background-color: var(--turquoise-surf);
+  border-radius: 20px;
+}
+h2 {
+  margin-bottom: 20px;
 }
 .container {
   padding: 0 15px;
@@ -191,63 +205,33 @@ header nav .submenu li:hover {
   }
 }
 .vivamus {
+  padding: 70px 0;
   border-bottom: 1px solid #ccc;
 }
-.vivamus .flex {
-  flex-wrap: wrap;
-}
-.section-services {
-  padding: 30px 0;
-}
-.vivamus .right {
+.vivamus .container {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   flex-wrap: wrap;
-  padding-top: 30px;
+  gap: 40px;
 }
-.vivamus .right button {
-  background-color: #00b4c6;
-  color: #000;
+.vivamus .image img {
+  display: block;
+  max-width: 80%;
+  margin: auto;
 }
-@media (max-width: 576px) {
-  .vivamus .left .images-left {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+@media (min-width: 992px) {
+  .vivamus .image {
+    width: 45%;
   }
-  .vivamus .left .images-left img {
-    width: 80%;
-  }
-  .vivamus .right h2,
-  .vivamus .right p {
-    margin: 20px 0;
-  }
-}
-@media (min-width: 577px) and (max-width: 766px) {
-  .vivamus .left .images-left {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-  .vivamus .left .images-left img {
-    width: 60%;
-  }
-  .vivamus .right h2,
-  .vivamus .right p {
-    margin: 20px 0;
-  }
-}
-@media (min-width: 767px) {
-  .vivamus .left,
-  .vivamus .right {
+  .vivamus article {
     width: 50%;
   }
-  .vivamus .left {
-    display: flex;
-    align-items: center;
-  }
-  .vivamus .left .images-left img {
-    width: 100%;
-  }
+}
+.vivamus article p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+  color: var(--text-color);
 }
 .curabitur .left .top-section-left {
   padding: 30px 0;
