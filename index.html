@@ -2,295 +2,303 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="Art Factory Template Html And CSS" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Art Facttory</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="assets/styles/main.css" />
   </head>
   <body>
     <header>
       <div class="container">
+        <div class="logo">
+          <a href="index.html" aria-label="Art Factory Logo">Art Factory</a>
+        </div>
         <nav>
-          <div class="logo">
-            <a href="#" aria-label="logo">art factory</a>
-          </div>
-          <ul class="menu">
+          <label for="toggle-menu" class="bars-icon"><i class="fa-solid fa-bars bars"></i></label>
+          <input type="checkbox" id="toggle-menu" class="toggle-menu" />
+          <ul class="nav-links">
             <li>
-              <i class="fa-solid fa-bars bars"></i>
-              <ul class="sub-menu">
-                <li>
-                  <a href="#home" aria-label="link home">home</a>
-                </li>
-                <li>
-                  <a href="#about" aria-label="link about">about</a>
-                </li>
-                <li>
-                  <a href="#services" aria-label="link services">services</a>
-                </li>
-                <li>
-                  <a href="#frequently-questions" aria-label="link frequently questions">frequently questions</a>
-                </li>
-                <li class="drop">
-                  <a href="#" aria-label="link drop-down">drop down</a>
-                  <i class="fa-solid fa-chevron-down"></i>
-                  <ul class="submenu">
-                    <li><a href="#" aria-label="link about us">about us</a></li>
-                    <li><a href="#" aria-label="link features">features</a></li>
-                    <li><a href="#" aria-label="link faq's">faq's</a></li>
-                    <li><a href="#" aria-label="link blog">blog</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="#contact-us">contact us</a>
-                </li>
+              <a href="#home" aria-label="link home">Home</a>
+            </li>
+            <li>
+              <a href="#about" aria-label="link about">About</a>
+            </li>
+            <li>
+              <a href="#services" aria-label="link services">Services</a>
+            </li>
+            <li>
+              <a href="#frequently-questions" aria-label="link frequently questions">Frequently Questions</a>
+            </li>
+            <li class="drop">
+              <a href="#" aria-label="link drop-down">
+                <label for="toggle-drop-down" class="drop-down-label">Drop Down <i class="fa-solid fa-chevron-down"></i></label>
+              </a>
+              <input type="checkbox" id="toggle-drop-down" class="toggle-drop-down" />
+              <ul class="submenu">
+                <li><a href="#" aria-label="about us">About Us</a></li>
+                <li><a href="#" aria-label="features">Features</a></li>
+                <li><a href="#" aria-label="faq's">Faq's</a></li>
+                <li><a href="#" aria-label="blog">Blog</a></li>
               </ul>
+            </li>
+            <li>
+              <a href="#contact-us">Contact Us</a>
             </li>
           </ul>
         </nav>
       </div>
     </header>
-    <section class="main-header" id="top-page">
-      <div class="container">
-        <div class="flex">
-          <div class="left">
-            <h1>
-              art factory is free<br />
-              <strong>for you</strong>
-            </h1>
-            <p>This template is available for 100% free of charge on TemplateMo. Download, modify and use this for your business website</p>
-            <div class="flex-button">
-              <button>find out more</button>
-            </div>
-          </div>
-          <div class="right">
-            <div class="images-right">
-              <img src="assets/images/slider-icon.webp" alt="" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="vivamus section-services" id="about">
-      <div class="container">
-        <div class="flex">
-          <div class="left">
-            <div class="images-left">
-              <img src="assets/images/left-image.webp" alt="" />
-            </div>
-          </div>
-          <div class="right">
-            <h2>Vivamus sodales nisi id ante molestie venenatis</h2>
-            <p>
-              This template is <a href="#">last updated on 20 August 2019</a> for main menu drop-down arrow and sub menu text color. Duis auctor dolor eu scelerisque vestibulum. Vestibulum lacinia,
-              nisl sit amet tristique condimentum.
-            </p>
-            <p>Sed a consequat velit. Morbi lectus sapien, vestibulum et sapien sit amet, ultrices malesuada odio. Donec non quam euismod, mattis dui a, ultrices nisi.</p>
-            <div class="button">
-              <button>discover more</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="curabitur section-services">
-      <div class="container">
-        <div class="flex">
-          <div class="left">
-            <div class="top-section-left">
-              <h2>Curabitur aliquam eget tellus id porta</h2>
-              <p>Proin justo sapien, posuere suscipit tortor in, fermentum mattis elit. Aenean in feugiat purus.</p>
-            </div>
-            <ul>
-              <li>
-                <div class="flex">
-                  <div class="left-li">
-                    <img src="assets/images/about-icon-01.webp" alt="" />
-                  </div>
-                  <div class="right-li">
-                    <h3>Nulla ultricies risus quis risus</h3>
-                    <p>You can use this website template for commercial or non-commercial purposes.</p>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="flex">
-                  <div class="left-li">
-                    <img src="assets/images/about-icon-02.webp" alt="" />
-                  </div>
-                  <div class="right-li">
-                    <h3>Donec consequat commodo purus</h3>
-                    <p>You have no right to re-distribute this template as a downloadable ZIP file on any website.</p>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="flex">
-                  <div class="left-li">
-                    <img src="assets/images/about-icon-03.webp" alt="" />
-                  </div>
-                  <div class="right-li">
-                    <h3>Sed placerat sollicitudin mauris</h3>
-                    <p>If you have any question or comment, please <a href="#">contact</a> us on TemplateMo.</p>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <div class="right">
-            <div class="images">
-              <img src="assets/images/right-image.webp" alt="" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="testimonails" id="services">
-      <div class="container">
-        <div class="parent">
+    <main>
+      <section class="main-header" id="top-page">
+        <div class="container">
           <div class="flex">
-            <div class="box-services">
-              <div class="images">
-                <img src="assets/images/service-icon-01.webp" alt="" />
+            <div class="left">
+              <h1>
+                art factory is free<br />
+                <strong>for you</strong>
+              </h1>
+              <p>This template is available for 100% free of charge on TemplateMo. Download, modify and use this for your business website</p>
+              <div class="flex-button">
+                <button>find out more</button>
               </div>
-              <div class="bottom-box">
-                <h3>first box service</h3>
-                <p>Quisque finibus libero augue, in ultrices quam dictum id. Aliquam quis tellus sit amet urna tincidunt bibendum.</p>
+            </div>
+            <div class="right">
+              <div class="images-right">
+                <img src="assets/images/slider-icon.webp" alt="" />
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="vivamus section-services" id="about">
+        <div class="container">
+          <div class="flex">
+            <div class="left">
+              <div class="images-left">
+                <img src="assets/images/left-image.webp" alt="" />
+              </div>
+            </div>
+            <div class="right">
+              <h2>Vivamus sodales nisi id ante molestie venenatis</h2>
+              <p>
+                This template is <a href="#">last updated on 20 August 2019</a> for main menu drop-down arrow and sub menu text color. Duis auctor dolor eu scelerisque vestibulum. Vestibulum lacinia,
+                nisl sit amet tristique condimentum.
+              </p>
+              <p>Sed a consequat velit. Morbi lectus sapien, vestibulum et sapien sit amet, ultrices malesuada odio. Donec non quam euismod, mattis dui a, ultrices nisi.</p>
               <div class="button">
                 <button>discover more</button>
               </div>
             </div>
-            <div class="box-services">
+          </div>
+        </div>
+      </section>
+      <section class="curabitur section-services">
+        <div class="container">
+          <div class="flex">
+            <div class="left">
+              <div class="top-section-left">
+                <h2>Curabitur aliquam eget tellus id porta</h2>
+                <p>Proin justo sapien, posuere suscipit tortor in, fermentum mattis elit. Aenean in feugiat purus.</p>
+              </div>
+              <ul>
+                <li>
+                  <div class="flex">
+                    <div class="left-li">
+                      <img src="assets/images/about-icon-01.webp" alt="" />
+                    </div>
+                    <div class="right-li">
+                      <h3>Nulla ultricies risus quis risus</h3>
+                      <p>You can use this website template for commercial or non-commercial purposes.</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="flex">
+                    <div class="left-li">
+                      <img src="assets/images/about-icon-02.webp" alt="" />
+                    </div>
+                    <div class="right-li">
+                      <h3>Donec consequat commodo purus</h3>
+                      <p>You have no right to re-distribute this template as a downloadable ZIP file on any website.</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="flex">
+                    <div class="left-li">
+                      <img src="assets/images/about-icon-03.webp" alt="" />
+                    </div>
+                    <div class="right-li">
+                      <h3>Sed placerat sollicitudin mauris</h3>
+                      <p>If you have any question or comment, please <a href="#">contact</a> us on TemplateMo.</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="right">
               <div class="images">
-                <img src="assets/images/service-icon-02.webp" alt="" />
+                <img src="assets/images/right-image.webp" alt="" />
               </div>
-              <div class="bottom-box">
-                <h3>first box service</h3>
-                <p>Quisque finibus libero augue, in ultrices quam dictum id. Aliquam quis tellus sit amet urna tincidunt bibendum.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="testimonails" id="services">
+        <div class="container">
+          <div class="parent">
+            <div class="flex">
+              <div class="box-services">
+                <div class="images">
+                  <img src="assets/images/service-icon-01.webp" alt="" />
+                </div>
+                <div class="bottom-box">
+                  <h3>first box service</h3>
+                  <p>Quisque finibus libero augue, in ultrices quam dictum id. Aliquam quis tellus sit amet urna tincidunt bibendum.</p>
+                </div>
+                <div class="button">
+                  <button>discover more</button>
+                </div>
               </div>
+              <div class="box-services">
+                <div class="images">
+                  <img src="assets/images/service-icon-02.webp" alt="" />
+                </div>
+                <div class="bottom-box">
+                  <h3>first box service</h3>
+                  <p>Quisque finibus libero augue, in ultrices quam dictum id. Aliquam quis tellus sit amet urna tincidunt bibendum.</p>
+                </div>
+                <div class="button">
+                  <button>more detal</button>
+                </div>
+              </div>
+              <div class="box-services">
+                <div class="images">
+                  <img src="assets/images/service-icon-03.webp" alt="" />
+                </div>
+                <div class="bottom-box">
+                  <h3>first box service</h3>
+                  <p>Quisque finibus libero augue, in ultrices quam dictum id. Aliquam quis tellus sit amet urna tincidunt bibendum.</p>
+                </div>
+                <div class="button">
+                  <button>read more</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="asked" id="frequently-questions">
+        <div class="container">
+          <div class="top-center-asked">
+            <div class="center">
+              <h2>Frequently Asked Questions</h2>
+              <p>Vivamus venenatis eu mi ac mattis. Maecenas ut elementum sapien. Nunc euismod risus ac lobortis congue. Sed erat quam.</p>
+            </div>
+          </div>
+          <div class="flex">
+            <div class="left">
+              <h2>Class aptent taciti sociosqu ad litora torquent per conubia</h2>
+              <p>
+                Curabitur placerat diam in risus lobortis, laoreet porttitor est elementum. Nulla ultricies risus quis risus scelerisque, a aliquam tellus maximus. Cras pretium nulla ac convallis
+                iaculis. Aenean bibendum erat vitae odio sodales, in facilisis tellus volutpat.
+              </p>
+              <p>
+                Sed lobortis pellentesque magna ac congue. Suspendisse quis molestie magna, id eleifend ex. Ut mollis ultricies diam nec dictum. Morbi commodo hendrerit mi vel vulputate. Proin non
+                tincidunt dui. Lorem ipsum dolor sit amet.
+              </p>
+              <p>Email: <a href="mailto:email@company.com">email@company.com</a></p>
               <div class="button">
-                <button>more detal</button>
+                <button>contact us</button>
               </div>
             </div>
-            <div class="box-services">
-              <div class="images">
-                <img src="assets/images/service-icon-03.webp" alt="" />
-              </div>
-              <div class="bottom-box">
-                <h3>first box service</h3>
-                <p>Quisque finibus libero augue, in ultrices quam dictum id. Aliquam quis tellus sit amet urna tincidunt bibendum.</p>
-              </div>
-              <div class="button">
-                <button>read more</button>
+            <div class="right">
+              <div class="content-right">
+                <article>
+                  <div class="header">
+                    <div class="flex">
+                      <h2>First Common Question</h2>
+                      <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                  </div>
+                  <div class="body">
+                    <p>
+                      Duis vulputate porttitor urna sit amet pretium. Phasellus sed pulvinar eros, condimentum consequat ex. Suspendisse potenti. Pellentesque maximus lorem sed elit imperdiet mattis.
+                      Duis posuere mauris ut eros rutrum sodales. Aliquam erat volutpat.
+                    </p>
+                  </div>
+                </article>
+                <article>
+                  <div class="header">
+                    <div class="flex">
+                      <h2>Second Question Answer</h2>
+                      <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                  </div>
+                  <div class="body">
+                    <p>
+                      Duis vulputate porttitor urna sit amet pretium. Phasellus sed pulvinar eros, condimentum consequat ex. Suspendisse potenti. Pellentesque maximus lorem sed elit imperdiet mattis.
+                      Duis posuere mauris ut eros rutrum sodales. Aliquam erat volutpat.
+                    </p>
+                  </div>
+                </article>
+                <article>
+                  <div class="header">
+                    <div class="flex">
+                      <h2>Third Answer for you</h2>
+                      <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                  </div>
+                  <div class="body">
+                    <p>
+                      Duis vulputate porttitor urna sit amet pretium. Phasellus sed pulvinar eros, condimentum consequat ex. Suspendisse potenti. Pellentesque maximus lorem sed elit imperdiet mattis.
+                      Duis posuere mauris ut eros rutrum sodales. Aliquam erat volutpat.
+                    </p>
+                  </div>
+                </article>
+                <article>
+                  <div class="header">
+                    <div class="flex">
+                      <h2>Fifth Ever Question</h2>
+                      <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                  </div>
+                  <div class="body">
+                    <p>
+                      Duis vulputate porttitor urna sit amet pretium. Phasellus sed pulvinar eros, condimentum consequat ex. Suspendisse potenti. Pellentesque maximus lorem sed elit imperdiet mattis.
+                      Duis posuere mauris ut eros rutrum sodales. Aliquam erat volutpat.
+                    </p>
+                  </div>
+                </article>
+                <article>
+                  <div class="header">
+                    <div class="flex">
+                      <h2>Sixth Sense Question</h2>
+                      <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                  </div>
+                  <div class="body">
+                    <p>
+                      Duis vulputate porttitor urna sit amet pretium. Phasellus sed pulvinar eros, condimentum consequat ex. Suspendisse potenti. Pellentesque maximus lorem sed elit imperdiet mattis.
+                      Duis posuere mauris ut eros rutrum sodales. Aliquam erat volutpat.
+                    </p>
+                  </div>
+                </article>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="asked" id="frequently-questions">
-      <div class="container">
-        <div class="top-center-asked">
-          <div class="center">
-            <h2>Frequently Asked Questions</h2>
-            <p>Vivamus venenatis eu mi ac mattis. Maecenas ut elementum sapien. Nunc euismod risus ac lobortis congue. Sed erat quam.</p>
-          </div>
-        </div>
-        <div class="flex">
-          <div class="left">
-            <h2>Class aptent taciti sociosqu ad litora torquent per conubia</h2>
-            <p>
-              Curabitur placerat diam in risus lobortis, laoreet porttitor est elementum. Nulla ultricies risus quis risus scelerisque, a aliquam tellus maximus. Cras pretium nulla ac convallis
-              iaculis. Aenean bibendum erat vitae odio sodales, in facilisis tellus volutpat.
-            </p>
-            <p>
-              Sed lobortis pellentesque magna ac congue. Suspendisse quis molestie magna, id eleifend ex. Ut mollis ultricies diam nec dictum. Morbi commodo hendrerit mi vel vulputate. Proin non
-              tincidunt dui. Lorem ipsum dolor sit amet.
-            </p>
-            <p>Email: <a href="mailto:email@company.com">email@company.com</a></p>
-            <div class="button">
-              <button>contact us</button>
-            </div>
-          </div>
-          <div class="right">
-            <div class="content-right">
-              <article>
-                <div class="header">
-                  <div class="flex">
-                    <h2>First Common Question</h2>
-                    <i class="fa-solid fa-chevron-down"></i>
-                  </div>
-                </div>
-                <div class="body">
-                  <p>
-                    Duis vulputate porttitor urna sit amet pretium. Phasellus sed pulvinar eros, condimentum consequat ex. Suspendisse potenti. Pellentesque maximus lorem sed elit imperdiet mattis.
-                    Duis posuere mauris ut eros rutrum sodales. Aliquam erat volutpat.
-                  </p>
-                </div>
-              </article>
-              <article>
-                <div class="header">
-                  <div class="flex">
-                    <h2>Second Question Answer</h2>
-                    <i class="fa-solid fa-chevron-down"></i>
-                  </div>
-                </div>
-                <div class="body">
-                  <p>
-                    Duis vulputate porttitor urna sit amet pretium. Phasellus sed pulvinar eros, condimentum consequat ex. Suspendisse potenti. Pellentesque maximus lorem sed elit imperdiet mattis.
-                    Duis posuere mauris ut eros rutrum sodales. Aliquam erat volutpat.
-                  </p>
-                </div>
-              </article>
-              <article>
-                <div class="header">
-                  <div class="flex">
-                    <h2>Third Answer for you</h2>
-                    <i class="fa-solid fa-chevron-down"></i>
-                  </div>
-                </div>
-                <div class="body">
-                  <p>
-                    Duis vulputate porttitor urna sit amet pretium. Phasellus sed pulvinar eros, condimentum consequat ex. Suspendisse potenti. Pellentesque maximus lorem sed elit imperdiet mattis.
-                    Duis posuere mauris ut eros rutrum sodales. Aliquam erat volutpat.
-                  </p>
-                </div>
-              </article>
-              <article>
-                <div class="header">
-                  <div class="flex">
-                    <h2>Fifth Ever Question</h2>
-                    <i class="fa-solid fa-chevron-down"></i>
-                  </div>
-                </div>
-                <div class="body">
-                  <p>
-                    Duis vulputate porttitor urna sit amet pretium. Phasellus sed pulvinar eros, condimentum consequat ex. Suspendisse potenti. Pellentesque maximus lorem sed elit imperdiet mattis.
-                    Duis posuere mauris ut eros rutrum sodales. Aliquam erat volutpat.
-                  </p>
-                </div>
-              </article>
-              <article>
-                <div class="header">
-                  <div class="flex">
-                    <h2>Sixth Sense Question</h2>
-                    <i class="fa-solid fa-chevron-down"></i>
-                  </div>
-                </div>
-                <div class="body">
-                  <p>
-                    Duis vulputate porttitor urna sit amet pretium. Phasellus sed pulvinar eros, condimentum consequat ex. Suspendisse potenti. Pellentesque maximus lorem sed elit imperdiet mattis.
-                    Duis posuere mauris ut eros rutrum sodales. Aliquam erat volutpat.
-                  </p>
-                </div>
-              </article>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+      </section>
+    </main>
     <footer id="contact-us">
       <div class="flex">
         <div class="left">
