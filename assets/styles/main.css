@@ -12,6 +12,7 @@ html {
   --sunset-oange: #f55858;
   --turquoise-surf: #00b4c6;
   --sea-serpent: #4bc0dc;
+  --rich-electric-blue: #0b9cc9;
   --box-shadow: 1px 1px 10px rgb(0 0 0 / 0.1);
   --text-color: #9a9a9b;
 }
@@ -280,56 +281,43 @@ header nav .submenu li:hover {
     width: 45%;
   }
 }
-.testimonails {
-  background-color: #009fd7;
-  padding: 30px 0;
+.services {
+  padding: 70px 0;
+  background-color: var(--rich-electric-blue);
 }
-.testimonails .parent .box-features {
-  background-color: #fff;
-  width: calc((100% - 50px) / 3);
-  padding: 20px;
-  text-align: center;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.testimonails .parent .box-features .images {
-  background-color: #0088e8;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
+.services .container {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
 }
-.testimonails .parent .box-features h3 {
-  padding: 20px 0;
-  text-transform: capitalize;
+.services .service {
+  min-width: 265px;
+  max-width: 350px;
+  padding: 20px;
+  text-align: center;
+  background-color: var(--white);
+  border-radius: 10px;
 }
-.testimonails .parent .box-features button {
-  background-color: #009fd7;
-  padding: 12px;
+.services .service .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  border-radius: 50%;
+  background-color: var(--sea-serpent);
 }
-@media (max-width: 576px) {
-  .testimonails .parent .box-features {
-    width: 100%;
-    margin: 20px 0;
-  }
+.services .service .info h3 {
+  margin: 20px 0;
 }
-@media (min-width: 576px) and (max-width: 766px) {
-  .testimonails .parent .box-features {
-    width: 100%;
-    margin: 20px 0;
-  }
+.services .service p {
+  line-height: 1.6;
 }
-@media (min-width: 767px) and (max-width: 992px) {
-  .testimonails .parent .flex {
-    flex-wrap: wrap;
-  }
-  .testimonails .parent .box-features {
-    width: calc((100% - 40px) / 2);
-    margin: 20px 0;
-  }
+.services .service a {
+  margin: 30px auto;
 }
 .asked {
   padding: 30px 0;
