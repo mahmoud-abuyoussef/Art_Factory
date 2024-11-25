@@ -204,31 +204,31 @@ header nav .submenu li:hover {
     max-width: 90%;
   }
 }
-.vivamus {
+.about {
   padding: 70px 0;
   border-bottom: 1px solid #ccc;
 }
-.vivamus .container {
+.about .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 40px;
 }
-.vivamus .image img {
+.about .image img {
   display: block;
   max-width: 80%;
   margin: auto;
 }
 @media (min-width: 992px) {
-  .vivamus .image {
+  .about .image {
     width: 45%;
   }
-  .vivamus article {
+  .about article {
     width: 50%;
   }
 }
-.vivamus article p {
+.about article p {
   margin-bottom: 20px;
   line-height: 1.6;
   color: var(--text-color);
